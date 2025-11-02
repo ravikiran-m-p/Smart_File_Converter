@@ -18,14 +18,16 @@ Smart_File_Converter is a **Java Swing-based application** that allows users to 
 
 ## Installation
 
-  Clone the repository:    git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
+  - Clone the repository:
+  ```bash
+git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
+```  
   
-  
-  Navigate to the project folder:  cd Smart_File_Converter/src
+  - Navigate to the project folder:  cd Smart_File_Converter/src
 
-  Compile all Java files:  javac smartfileconverter/*.java
+  - Compile all Java files:  javac smartfileconverter/*.java
 
-  Run the application:   java smartfileconverter.Main
+  - Run the application:   java smartfileconverter.Main
 
 
 **Usage**
