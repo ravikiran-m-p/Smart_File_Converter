@@ -30,18 +30,25 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
   - Run the application:   java smartfileconverter.Main
 
 
-**Usage**
+ Usage
 
-  Launch the application.  
-  Click "Choose File" to select a file from your system.
-  The application detects the file type and automatically processes it:
-  Text → Compressed
-  Image → Converted
-  Audio → Mock converted
-  Other → Zipped
-  The status label displays the output path.
-  Click "Open File" to open the processed file.
+Launch the application.
 
+Click "Choose File" to select a file from your system.
+
+The application detects the file type and automatically processes it:
+
+Text → Compressed
+
+Image → Converted
+
+Audio → Mock Converted
+
+Other → Zipped
+
+The status label displays the output path.
+
+Click "Open File" to open the processed file.
 
 
 File Structure :-
