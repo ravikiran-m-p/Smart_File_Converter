@@ -30,7 +30,7 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
   - Run the application:   java smartfileconverter.Main
 
 
- **Usage**
+ # **Usage**
 1. Launch the application.  
 2. Click **"Choose File"** to select a file from your system.  
 3. The application detects the file type and automatically processes it:
@@ -44,35 +44,20 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
 5. Click **"Open File"** to open the processed file.
 
 
-
-File Structure :-
-
-Smart_File_Converter
-      |
-      |
-      |_________  src
-                  |
-                  |
-                  |_______________  smartfileconverter
-                                              |
-                                              |---------->    AudioConverter.java 
-                                              |
-                                              |---------->    Compressor.java
-                                              |
-                                              |---------->    FileConverterUI.java
-                                              |
-                                              |---------->    FileConverter.java
-                                              |
-                                              |---------->    FileProcessor.java
-                                              |
-                                              |---------->    FileTypeDectector.java
-                                              |
-                                              |---------->    ImageConverter.java
-                                              |
-                                              |---------->    Main.java
-                                              |
-                                              |---------->    Zipper.java
-
-
-      
-      
+## File Structure
+```
+Smart_File_Converter  
+│  
+└── src  
+  │  
+  └── smartfileconverter  
+    ├── AudioConverter.java  
+    ├── Compressor.java  
+    ├── FileConverterUI.java  
+    ├── FileConverter.java  
+    ├── FileProcessor.java  
+    ├── FileTypeDetector.java  
+    ├── ImageConverter.java  
+    ├── Main.java  
+    └── Zipper.java
+```
