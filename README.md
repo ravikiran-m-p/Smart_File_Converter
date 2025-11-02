@@ -29,8 +29,10 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
 
   - Run the application:   java smartfileconverter.Main
 
+---
 
  # **Usage**
+ 
 1. Launch the application.  
 2. Click **"Choose File"** to select a file from your system.  
 3. The application detects the file type and automatically processes it:
