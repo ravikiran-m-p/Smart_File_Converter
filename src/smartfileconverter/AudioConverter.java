@@ -11,3 +11,7 @@ Public class AudioConverter
         {
             fis.transferTo(fos);
         }
+    }
+    return out;
+    }
+}
