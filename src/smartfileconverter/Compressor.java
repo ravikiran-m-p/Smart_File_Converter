@@ -12,4 +12,7 @@ public class Compressor
                FileInputStream fis = new FileInputStream(input);
                FileOutputStream fos = new FileOutputStream(out);
                GZIPOutputStream gzip = new GZIPOutputStream(fos)
-           ) 
+           )
+             {
+                fis.transferTo(gzip);
+             }
