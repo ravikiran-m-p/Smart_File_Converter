@@ -16,3 +16,6 @@ public class Compressor
              {
                 fis.transferTo(gzip);
              }
+      return out;
+   }
+}
