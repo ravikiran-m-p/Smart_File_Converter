@@ -53,15 +53,15 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
 Smart_File_Converter  
 │  
 └── src  
-  │  
-  └── smartfileconverter  
-    ├── AudioConverter.java  
-    ├── Compressor.java  
-    ├── FileConverterUI.java  
-    ├── FileConverter.java  
-    ├── FileProcessor.java  
-    ├── FileTypeDetector.java  
-    ├── ImageConverter.java  
-    ├── Main.java  
-    └── Zipper.java
+     │  
+     └── smartfileconverter  
+       ├── AudioConverter.java  
+       ├── Compressor.java  
+       ├── FileConverterUI.java  
+       ├── FileConverter.java  
+       ├── FileProcessor.java  
+       ├── FileTypeDetector.java  
+       ├── ImageConverter.java  
+       ├── Main.java  
+       └── Zipper.java
 ```
