@@ -18,3 +18,7 @@ public class FileConverterUI
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(520, 220);
         frame.setLayout(new FlowLayout());
+
+        JButton chooseBtn = new JButton("Choose File");
+
+    
