@@ -26,7 +26,7 @@ public class FileConverterUI
 
         chooseBtn.addActionListener(e -> openFileChooser());
 
-         frame.add(chooseBtn);
+        frame.add(chooseBtn);
         frame.add(status);
         frame.add(openBtn);
 
