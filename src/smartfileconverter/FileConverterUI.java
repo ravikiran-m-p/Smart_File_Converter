@@ -33,14 +33,16 @@ public class FileConverterUI
         frame.setVisible(true);
     }
 
-    private void openFileChooser() {
+    private void openFileChooser()
+    {
         JFileChooser chooser = new JFileChooser();
         chooser.setDialogTitle("Select a file to convert or compress");
 
         
-        if (chooser.showOpenDialog(frame) == JFileChooser.APPROVE_OPTION) {
+        if (chooser.showOpenDialog(frame) == JFileChooser.APPROVE_OPTION)
+        {
             File file = chooser.getSelectedFile();
-                        status.setText("Selected: " + file.getName());
+            status.setText("Selected: " + file.getName());
             process(file);
         }
     }
