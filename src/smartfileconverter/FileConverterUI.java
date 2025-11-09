@@ -33,5 +33,10 @@ public class FileConverterUI
         frame.setVisible(true);
     }
 
+    private void openFileChooser() {
+        JFileChooser chooser = new JFileChooser();
+        chooser.setDialogTitle("Select a file to convert or compress");
+
+
 
     
