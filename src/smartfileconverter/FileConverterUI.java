@@ -23,7 +23,8 @@ public class FileConverterUI
         status = new JLabel("No file selected.");
         openBtn = new JButton("Open File");
         openBtn.setVisible(false);
-        
+
+        chooseBtn.addActionListener(e -> openFileChooser());
 
 
     
