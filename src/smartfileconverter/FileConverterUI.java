@@ -29,6 +29,9 @@ public class FileConverterUI
         frame.add(chooseBtn);
         frame.add(status);
         frame.add(openBtn);
+        
+        frame.setVisible(true);
+    }
 
 
     
