@@ -40,6 +40,8 @@ public class FileConverterUI
         
         if (chooser.showOpenDialog(frame) == JFileChooser.APPROVE_OPTION) {
             File file = chooser.getSelectedFile();
+                        status.setText("Selected: " + file.getName());
+            process(file);
         }
     }
 
