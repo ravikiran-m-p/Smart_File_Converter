@@ -54,7 +54,8 @@ public class FileConverterUI
             status.setText("<html> Done!<br>Saved: " + output.getAbsolutePath() + "</html>");
             openBtn.setVisible(true);
             openBtn.addActionListener(e -> {
-                try {
+                try
+                {
                     Desktop.getDesktop().open(output); 
                 }
                 catch (Exception ex) 
