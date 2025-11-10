@@ -51,5 +51,6 @@ public class FileConverterUI
         FileProcessor processor = new FileProcessor();
         try {
             File output = processor.process(file);
+            status.setText("<html> Done!<br>Saved: " + output.getAbsolutePath() + "</html>");
 
     
