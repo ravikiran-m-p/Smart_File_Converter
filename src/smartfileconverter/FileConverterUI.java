@@ -49,7 +49,8 @@ public class FileConverterUI
     private void process(File file) 
     {
         FileProcessor processor = new FileProcessor();
-        try {
+        try
+            {
             File output = processor.process(file);
             status.setText("<html> Done!<br>Saved: " + output.getAbsolutePath() + "</html>");
             openBtn.setVisible(true);
@@ -59,8 +60,8 @@ public class FileConverterUI
                     Desktop.getDesktop().open(output); 
                 }
                 catch (Exception ex) 
-                    {
+                {
                         ex.printStackTrace(); 
-                    }
+                }
 
     
