@@ -46,7 +46,8 @@ public class FileConverterUI
             process(file);
         }
     }
-    private void process(File file) {
+    private void process(File file) 
+    {
         FileProcessor processor = new FileProcessor();
 
 
