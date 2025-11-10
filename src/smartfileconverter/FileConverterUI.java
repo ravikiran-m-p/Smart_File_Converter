@@ -49,6 +49,7 @@ public class FileConverterUI
     private void process(File file) 
     {
         FileProcessor processor = new FileProcessor();
-
+        try {
+            File output = processor.process(file);
 
     
