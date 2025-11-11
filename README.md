@@ -28,7 +28,7 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
 
   - Compile all Java files:  javac smartfileconverter/*.java
 
-  - Run the application:   java smartfileconverter.Main
+  - Run the application:  java smartfileconverter.Main
 
 ---
 
