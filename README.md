@@ -37,12 +37,10 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
 1. Launch the application.  
 2. Click **"Choose File"** to select a file from your system.  
 3. The application detects the file type and automatically processes it:
-
    - **Text →** Compressed  
    - **Image →** Converted  
    - **Audio →** Mock Converted  
    - **Other →** Zipped  
-
 4. The status label displays the output path.  
 5. Click **"Open File"** to open the processed file.
 
