@@ -45,10 +45,8 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
 5. Click **"Open File"** to open the processed file.
 
 ---
-
 ## File Structure
 ```
-
 Smart_File_Converter  
 │  
 └── src  
