@@ -18,8 +18,7 @@ Smart_File_Converter is a **Java Swing-based application** that allows users to 
 ---
 
 ## Installation
-
-  - Clone the repository:
+ - Clone the repository:
   ```bash
 git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
 ```  
