@@ -31,7 +31,7 @@ git clone https://github.com/ravikiran-m-p/Smart_File_Converter.git
 
 ---
 
- # **Usage**
+ ## **Usage**
  
 1. Launch the application.  
 2. Click **"Choose File"** to select a file from your system.  
