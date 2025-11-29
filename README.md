@@ -6,6 +6,7 @@ Smart_File_Converter is a **Java Swing-based application** that allows users to 
 
 ## Features
   **Graphical User Interface** using Java Swing.  
+  
       - Detects file type automatically: Text, Image, Audio, Video, or Other.  
       - Processes files according to type:  
       - **Text:** Compressed using GZIP.  
