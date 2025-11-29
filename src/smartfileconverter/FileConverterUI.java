@@ -68,6 +68,8 @@ public class FileConverterUI
           status.setText(" Error: " + ex.getMessage());
           ex.printStackTrace();
         }
+    }
+}
       
 
     
