@@ -48,20 +48,20 @@ public class FileConverterUI
     {
         FileProcessor processor = new FileProcessor();
         try
-            {
+        {
             File output = processor.process(file);
             status.setText("<html> Done!<br>Saved: " + output.getAbsolutePath() + "</html>");
             openBtn.setVisible(true);
             openBtn.addActionListener(e -> {
-                try
-                {
-                    Desktop.getDesktop().open(output); 
-                }
-                catch (Exception ex) 
-                {
-                        ex.printStackTrace(); 
-                }
-            });
+            try
+            {
+                Desktop.getDesktop().open(output); 
+            }
+            catch (Exception ex) 
+            {
+                ex.printStackTrace(); 
+            }
+          });
         }
         catch (Exception ex)
         {
