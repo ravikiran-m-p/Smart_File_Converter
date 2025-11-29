@@ -64,8 +64,10 @@ public class FileConverterUI
             });
         }
         catch (Exception ex)
-            {
-            ex.printStackTrace();
+        {
+          status.setText(" Error: " + ex.getMessage());
+          ex.printStackTrace();
         }
+      
 
     
