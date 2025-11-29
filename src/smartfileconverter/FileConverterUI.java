@@ -61,5 +61,11 @@ public class FileConverterUI
                 {
                         ex.printStackTrace(); 
                 }
+            });
+        }
+        catch (Exception ex)
+            {
+            ex.printStackTrace();
+        }
 
     
